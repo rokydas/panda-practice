@@ -1,0 +1,45 @@
+.container{
+    margin-bottom: 100px;
+}
+
+.banner{
+    background-color: #fceae8;
+}
+
+.carousel-item{
+    padding: 20px 40px;
+}
+
+.price{
+    color: deeppink;
+}
+
+.custom-button{
+    background-image: linear-gradient(45deg, rgb(212, 85, 153), deeppink);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.cat1, .cat2, .cat3{
+    color: white;
+    border-radius: 10px;
+    font-size: 100px;
+    padding: 10px 20px;
+}
+
+.cat1 img, .cat2 img, .cat3 img{
+    width: 100px;
+}
+
+.cat1{
+    background-image: linear-gradient(45deg, rgb(197, 165, 105), orange);
+}
+
+.cat2{
+    background-image: linear-gradient(45deg, rgb(190, 105, 151), deeppink);
+}
+
+.cat3{
+    background-image: linear-gradient(45deg, rgb(104, 104, 204), blue);
+}
