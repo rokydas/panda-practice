@@ -4,13 +4,14 @@
 
 .banner{
     background-color: #fceae8;
+    border-radius: 10px;
 }
 
 .carousel-item{
     padding: 20px 40px;
 }
 
-.price{
+.price, .center-header{
     color: deeppink;
 }
 
@@ -42,4 +43,48 @@
 
 .cat3{
     background-image: linear-gradient(45deg, rgb(104, 104, 204), blue);
+}
+
+.card-footer{
+    background-color: white !important;
+    border-top: none !important;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 20px gray;
+}
+
+.center-header{
+    text-align: center;
+}
+
+.horizontal-row{
+    border: 2px solid deeppink;
+    margin-bottom: 100px;
+    width: 50%;
+}
+
+.link, .link:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.contact{
+    height: 300px;
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+
+.contact p{
+    color: gray;
+}
+
+.copyright p{
+    text-align: center;
 }
